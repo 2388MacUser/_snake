@@ -21,7 +21,7 @@ dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('Snake Game by G0nghiG0n')
 
 # Background Img
-background = pygame.image.load('Snake/background_1.png')
+background = pygame.image.load('./background_1.png')
 
 clock = pygame.time.Clock()
  
@@ -32,7 +32,7 @@ font_style = pygame.font.SysFont("bahnschrift", 35)
 score_font = pygame.font.SysFont("menlo", 35)
 
 # background music 
-mixer.music.load('Snake/retrogame_1.ogg')
+mixer.music.load('./retrogame_1.ogg')
 mixer.music.play(-1)
 
 
